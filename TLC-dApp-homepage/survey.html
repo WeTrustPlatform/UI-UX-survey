@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SurveyMonkey</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="yourstylesheetfile.css">
+</head>
+<body>
+	
+	<script type="text/javascript">
+	
+	var urls = new Array("https://www.surveymonkey.com/r/9YDB9MQ", "https://www.surveymonkey.com/r/DBD8LSB");
+	
+	function redirect()
+	{
+		window.location = urls[Math.floor(urls.length*Math.random())];
+	}
+	
+	redirect();
+
+</script>
+	
+</body>
+</html>
